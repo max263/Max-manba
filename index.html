@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Max-Jorceng Johachim | Manba</title>
+  <style>
+    :root{--brown:#6b3518;--gold:#e8a62b;--cream:#fff8ea;--green:#3f6b3a;--dark:#24150d}
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:Arial,Helvetica,sans-serif;color:var(--dark);background:var(--cream);line-height:1.6}
+    header{background:rgba(36,21,13,.96);color:#fff;position:sticky;top:0;z-index:10}
+    nav{max-width:1100px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:16px 22px}
+    .brand{font-size:1.25rem;font-weight:800}.brand span{color:var(--gold)}
+    nav a{color:#fff;text-decoration:none;margin-left:20px;font-weight:600}
+    .hero{min-height:78vh;display:flex;align-items:center;background:linear-gradient(120deg,#fff4d8 0%,#f4d08a 48%,#c77932 100%);padding:70px 22px}
+    .hero-inner{max-width:1100px;margin:auto;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+    .tag{display:inline-block;background:#fff;border-radius:30px;padding:8px 16px;color:var(--brown);font-weight:700;margin-bottom:18px}
+    h1{font-size:clamp(2.5rem,6vw,4.8rem);line-height:1.05;margin-bottom:20px;color:var(--brown)}
+    .hero p{font-size:1.15rem;max-width:650px;margin-bottom:28px}
+    .buttons{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-block;padding:13px 20px;border-radius:10px;text-decoration:none;font-weight:800}
+    .primary{background:var(--brown);color:#fff}.secondary{border:2px solid var(--brown);color:var(--brown)}
+    .jar{background:#fff;border-radius:28px;padding:35px;text-align:center;box-shadow:0 18px 45px #6b351833}
+    .jar-icon{font-size:9rem;line-height:1}
+    .jar h2{color:var(--brown);margin-top:10px}
+    section{padding:70px 22px}.container{max-width:1100px;margin:auto}
+    .section-title{text-align:center;color:var(--brown);font-size:2.2rem;margin-bottom:12px}
+    .section-sub{text-align:center;margin-bottom:35px}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .card{background:#fff;padding:26px;border-radius:18px;box-shadow:0 8px 25px #6b351814}
+    .card h3{color:var(--brown);margin-bottom:8px}.icon{font-size:2.5rem;margin-bottom:10px}
+    .product{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}
+    .product-visual{min-height:330px;background:linear-gradient(145deg,#f4d08a,#9c4f20);border-radius:25px;display:flex;align-items:center;justify-content:center}
+    .big-jar{font-size:11rem;filter:drop-shadow(0 12px 8px #0003)}
+    .price{font-size:1.5rem;color:var(--green);font-weight:800;margin:18px 0}
+    ul{padding-left:20px}.contact{background:#2f2118;color:#fff}.contact .section-title{color:#ffd277}
+    .contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+    .contact-box{background:#493226;padding:24px;border-radius:16px}
+    .contact-box a{color:#ffd277;font-weight:800;text-decoration:none}
+    footer{text-align:center;background:#1d120c;color:#fff;padding:22px}
+    @media(max-width:800px){.hero-inner,.product{grid-template-columns:1fr}.cards,.contact-grid{grid-template-columns:1fr}nav{flex-direction:column;gap:10px}nav a{margin:0 7px}.jar-icon{font-size:7rem}}
+  </style>
+</head>
+<body>
+<header>
+  <nav>
+    <div class="brand">🥜 Max-<span>Jorceng</span> Manba</div>
+    <div>
+      <a href="#accueil">Akèy</a>
+      <a href="#produit">Pwodwi</a>
+      <a href="#services">Sèvis</a>
+      <a href="#contact">Kontak</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero" id="accueil">
+  <div class="hero-inner">
+    <div>
+      <div class="tag">🥜 Manba • An gwo & an detay</div>
+      <h1>Bon gou ki fèt pou tout fanmi.</h1>
+      <p>Byenveni sou paj ofisyèl <strong>Max-Jorceng Johachim</strong>. Nou vann manba pou kliyan ki bezwen achte an gwo oswa an detay.</p>
+      <div class="buttons">
+        <a class="btn primary" href="#produit">Gade pwodwi a</a>
+        <a class="btn secondary" href="tel:+50934390586">📞 Rele: 34 39 05 86</a>
+      </div>
+    </div>
+    <div class="jar">
+      <div class="jar-icon">🥜</div>
+      <h2>Manba Max-Jorceng</h2>
+      <p>Disponib an gwo ak an detay</p>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <h2 class="section-title">Sa nou ofri</h2>
+    <p class="section-sub">Yon sèvis senp pou moun ak biznis.</p>
+    <div class="cards">
+      <div class="card"><div class="icon">📦</div><h3>Vant an gwo</h3><p>Pou boutik, machann ak revandè ki bezwen pi gwo kantite.</p></div>
+      <div class="card"><div class="icon">🛍️</div><h3>Vant an detay</h3><p>Achte kantite ki adapte ak bezwen ou.</p></div>
+      <div class="card"><div class="icon">📞</div><h3>Kòmande fasil</h3><p>Rele founisè a pou konnen disponiblite, kantite ak pri.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="produit">
+  <div class="container product">
+    <div class="product-visual"><div class="big-jar">🥜</div></div>
+    <div>
+      <h2 class="section-title" style="text-align:left">Manba Max-Jorceng</h2>
+      <p>Yon pwodwi ou ka kòmande pou vann oswa pou konsomasyon pèsonèl.</p>
+      <div class="price">Pri: kontakte founisè a</div>
+      <ul>
+        <li>Disponib an gwo</li>
+        <li>Disponib an detay</li>
+        <li>Kantite selon kòmand</li>
+        <li>Pri ka varye selon kantite</li>
+      </ul>
+      <br>
+      <a class="btn primary" href="tel:+50934390586">Kòmande kounye a</a>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container">
+    <h2 class="section-title">Kontakte nou</h2>
+    <p class="section-sub">Pou pri, kantite, disponiblite ak kòmand.</p>
+    <div class="contact-grid">
+      <div class="contact-box"><h3>Founisè</h3><p>Max-Jorceng Johachim</p></div>
+      <div class="contact-box"><h3>Telefòn</h3><p><a href="tel:+50934390586">34 39 05 86</a></p></div>
+      <div class="contact-box"><h3>WhatsApp</h3><p><a href="https://wa.me/50934390586">Ekri nou sou WhatsApp</a></p></div>
+    </div>
+  </div>
+</section>
+
+<footer>© 2026 Max-Jorceng Johachim — Manba an gwo & an detay.</footer>
+</body>
+</html>
